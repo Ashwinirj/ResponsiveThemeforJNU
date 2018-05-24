@@ -1,0 +1,104 @@
+body {
+    font-family: sans-serif;
+    padding-top:15px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.img-responsive {
+ width:100%;
+}
+.vedio-wrapper {
+        width:100%;
+}
+
+.video-row {
+    display: flex;
+}
+
+.video-column {
+    flex: 33.33%;
+    padding: 15px;
+}
+
+.image-row {
+    display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.image-column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+
+.block-wrapper{
+	width:50%;
+}
+
+.block-spacer{
+	padding: 4px;
+    margin: 4px;
+}
+
+
+
+.mast-head {
+	background: #000 url("../images/background.png") top center no-repeat;
+}
+.mast-head .jumbotron {
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius: 0px;
+
+}
+
+.mast-foot {
+	background-color: #b0cae1;
+}
+/* Eamle search form */
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
